@@ -1,4 +1,4 @@
-const APIURL= '/api/todos/'||'https://todo-api-michael.herokuapp.com/api/todos/';
+const APIURL= 'https://todo-api-michael.herokuapp.com/api/todos/';
 
 export async function getTodos() {
   return fetch(APIURL)
